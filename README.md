@@ -22,6 +22,7 @@ The production tree stays private. It holds keys, personal mail, device sessions
 | [circuit-trip](https://github.com/ANERON-GAMES/circuit-trip) | A circuit breaker state machine: closed, open, and half-open from failure counts and probe successes. |
 | [batch-flush](https://github.com/ANERON-GAMES/batch-flush) | Decides when a batch should flush by count, bytes, age, or idle gap, without touching I/O. |
 | [cooldown-map](https://github.com/ANERON-GAMES/cooldown-map) | A per-key cooldown and regenerating-charge tracker with a clock the caller supplies. |
+| [backoff-plan](https://github.com/ANERON-GAMES/backoff-plan) | Capped exponential backoff with injected jitter and give-up rules. |
 
 Each library has tests and no network calls. The thresholds and the failure rules come from running this stack, not from a tutorial.
 
