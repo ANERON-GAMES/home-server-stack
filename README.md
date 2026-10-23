@@ -23,6 +23,9 @@ The production tree stays private. It holds keys, personal mail, device sessions
 | [batch-flush](https://github.com/ANERON-GAMES/batch-flush) | Decides when a batch should flush by count, bytes, age, or idle gap, without touching I/O. |
 | [cooldown-map](https://github.com/ANERON-GAMES/cooldown-map) | A per-key cooldown and regenerating-charge tracker with a clock the caller supplies. |
 | [backoff-plan](https://github.com/ANERON-GAMES/backoff-plan) | Capped exponential backoff with injected jitter and give-up rules. |
+| [rate-window](https://github.com/ANERON-GAMES/rate-window) | Sliding-window rate limit decisions per key: allow or deny, remaining count, and retry-after, with a clock the caller supplies. |
+| [quorum-vote](https://github.com/ANERON-GAMES/quorum-vote) | Folds up, down, and unknown health votes from several observers into one quorum verdict. One observer cannot change it. |
+| [version-gate](https://github.com/ANERON-GAMES/version-gate) | Decides whether a client version may connect, connects with an update warning, or is refused. |
 
 Each library has tests and no network calls. The thresholds and the failure rules come from running this stack, not from a tutorial.
 
