@@ -26,6 +26,9 @@ The production tree stays private. It holds keys, personal mail, device sessions
 | [rate-window](https://github.com/ANERON-GAMES/rate-window) | Sliding-window rate limit decisions per key: allow or deny, remaining count, and retry-after, with a clock the caller supplies. |
 | [quorum-vote](https://github.com/ANERON-GAMES/quorum-vote) | Folds up, down, and unknown health votes from several observers into one quorum verdict. One observer cannot change it. |
 | [version-gate](https://github.com/ANERON-GAMES/version-gate) | Decides whether a client version may connect, connects with an update warning, or is refused. |
+| [tick-budget](https://github.com/ANERON-GAMES/tick-budget) | A fixed-timestep accumulator that decides how many ticks to run per frame, with a catch-up cap. |
+| [seq-window](https://github.com/ANERON-GAMES/seq-window) | A sliding 32-bit sequence window that accepts new numbers and flags duplicates or too-old ones, with wraparound. |
+| [rank-shift](https://github.com/ANERON-GAMES/rank-shift) | Elo-style expected scores and rating updates with a configurable K factor. |
 
 Each library has tests and no network calls. The thresholds and the failure rules come from running this stack, not from a tutorial.
 
