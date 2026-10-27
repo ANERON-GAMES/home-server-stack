@@ -29,6 +29,9 @@ The production tree stays private. It holds keys, personal mail, device sessions
 | [tick-budget](https://github.com/ANERON-GAMES/tick-budget) | A fixed-timestep accumulator that decides how many ticks to run per frame, with a catch-up cap. |
 | [seq-window](https://github.com/ANERON-GAMES/seq-window) | A sliding 32-bit sequence window that accepts new numbers and flags duplicates or too-old ones, with wraparound. |
 | [rank-shift](https://github.com/ANERON-GAMES/rank-shift) | Elo-style expected scores and rating updates with a configurable K factor. |
+| [snap-lerp](https://github.com/ANERON-GAMES/snap-lerp) | A snapshot interpolation buffer that returns the bracketing pair and blend factor for a delayed render time. |
+| [loot-roll](https://github.com/ANERON-GAMES/loot-roll) | Weighted loot rolls with a pity counter and an injected random source. |
+| [idle-kick](https://github.com/ANERON-GAMES/idle-kick) | An idle-player policy that marks a player active, warned or kicked from last-input times. |
 
 Each library has tests and no network calls. The thresholds and the failure rules come from running this stack, not from a tutorial.
 
