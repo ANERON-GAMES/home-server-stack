@@ -32,6 +32,9 @@ The production tree stays private. It holds keys, personal mail, device sessions
 | [snap-lerp](https://github.com/ANERON-GAMES/snap-lerp) | A snapshot interpolation buffer that returns the bracketing pair and blend factor for a delayed render time. |
 | [loot-roll](https://github.com/ANERON-GAMES/loot-roll) | Weighted loot rolls with a pity counter and an injected random source. |
 | [idle-kick](https://github.com/ANERON-GAMES/idle-kick) | An idle-player policy that marks a player active, warned or kicked from last-input times. |
+| [match-band](https://github.com/ANERON-GAMES/match-band) | A skill-band matchmaking queue whose band widens with wait time, up to a cap. |
+| [aoi-grid](https://github.com/ANERON-GAMES/aoi-grid) | An area-of-interest spatial hash grid with radius queries and enter/leave sets. |
+| [dead-reckon](https://github.com/ANERON-GAMES/dead-reckon) | Dead reckoning prediction with threshold-based snap or blend correction. |
 
 Each library has tests and no network calls. The thresholds and the failure rules come from running this stack, not from a tutorial.
 
