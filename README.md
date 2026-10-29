@@ -35,6 +35,9 @@ The production tree stays private. It holds keys, personal mail, device sessions
 | [match-band](https://github.com/ANERON-GAMES/match-band) | A skill-band matchmaking queue whose band widens with wait time, up to a cap. |
 | [aoi-grid](https://github.com/ANERON-GAMES/aoi-grid) | An area-of-interest spatial hash grid with radius queries and enter/leave sets. |
 | [dead-reckon](https://github.com/ANERON-GAMES/dead-reckon) | Dead reckoning prediction with threshold-based snap or blend correction. |
+| [rewind-buffer](https://github.com/ANERON-GAMES/rewind-buffer) | A lag-compensation history buffer that rewinds entity positions to a past server time for hit checks. |
+| [spawn-pick](https://github.com/ANERON-GAMES/spawn-pick) | Spawn point selection scored by distance from threats and recent use. |
+| [jitter-buffer](https://github.com/ANERON-GAMES/jitter-buffer) | A packet jitter buffer with sequence ordering and adaptive playout delay. |
 
 Each library has tests and no network calls. The thresholds and the failure rules come from running this stack, not from a tutorial.
 
