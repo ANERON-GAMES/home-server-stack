@@ -38,6 +38,9 @@ The production tree stays private. It holds keys, personal mail, device sessions
 | [rewind-buffer](https://github.com/ANERON-GAMES/rewind-buffer) | A lag-compensation history buffer that rewinds entity positions to a past server time for hit checks. |
 | [spawn-pick](https://github.com/ANERON-GAMES/spawn-pick) | Spawn point selection scored by distance from threats and recent use. |
 | [jitter-buffer](https://github.com/ANERON-GAMES/jitter-buffer) | A packet jitter buffer with sequence ordering and adaptive playout delay. |
+| [clock-sync](https://github.com/ANERON-GAMES/clock-sync) | Client clock offset and round-trip estimation from timestamped ping samples. |
+| [input-replay](https://github.com/ANERON-GAMES/input-replay) | A client input queue with server acknowledgement and replay for prediction reconciliation. |
+| [ready-check](https://github.com/ANERON-GAMES/ready-check) | A lobby ready-check state machine with timeout, decline and quorum rules. |
 
 Each library has tests and no network calls. The thresholds and the failure rules come from running this stack, not from a tutorial.
 
