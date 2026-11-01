@@ -41,6 +41,9 @@ The production tree stays private. It holds keys, personal mail, device sessions
 | [clock-sync](https://github.com/ANERON-GAMES/clock-sync) | Client clock offset and round-trip estimation from timestamped ping samples. |
 | [input-replay](https://github.com/ANERON-GAMES/input-replay) | A client input queue with server acknowledgement and replay for prediction reconciliation. |
 | [ready-check](https://github.com/ANERON-GAMES/ready-check) | A lobby ready-check state machine with timeout, decline and quorum rules. |
+| [snapshot-delta](https://github.com/ANERON-GAMES/snapshot-delta) | Field-level delta encoding and application between entity state snapshots. |
+| [team-split](https://github.com/ANERON-GAMES/team-split) | Deterministic team balancing that splits rated players into teams with minimal rating difference. |
+| [region-pick](https://github.com/ANERON-GAMES/region-pick) | Server region selection from per-player latency samples with fairness and cap rules. |
 
 Each library has tests and no network calls. The thresholds and the failure rules come from running this stack, not from a tutorial.
 
