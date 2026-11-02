@@ -44,6 +44,9 @@ The production tree stays private. It holds keys, personal mail, device sessions
 | [snapshot-delta](https://github.com/ANERON-GAMES/snapshot-delta) | Field-level delta encoding and application between entity state snapshots. |
 | [team-split](https://github.com/ANERON-GAMES/team-split) | Deterministic team balancing that splits rated players into teams with minimal rating difference. |
 | [region-pick](https://github.com/ANERON-GAMES/region-pick) | Server region selection from per-player latency samples with fairness and cap rules. |
+| [update-tier](https://github.com/ANERON-GAMES/update-tier) | Distance-tiered update rate scheduling for networked entities. |
+| [vote-kick](https://github.com/ANERON-GAMES/vote-kick) | A lobby vote-kick tally with quorum, threshold and cooldown rules. |
+| [packet-budget](https://github.com/ANERON-GAMES/packet-budget) | Priority packing of entity updates into a per-tick byte budget. |
 
 Each library has tests and no network calls. The thresholds and the failure rules come from running this stack, not from a tutorial.
 
