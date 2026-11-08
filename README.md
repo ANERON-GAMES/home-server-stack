@@ -50,6 +50,9 @@ The production tree stays private. It holds keys, personal mail, device sessions
 | [respawn-wave](https://github.com/ANERON-GAMES/respawn-wave) | Wave-based respawn timers that group dead players into shared respawn waves. |
 | [item-stack](https://github.com/ANERON-GAMES/item-stack) | Inventory stack merging and splitting with per-item stack limits. |
 | [damage-falloff](https://github.com/ANERON-GAMES/damage-falloff) | Distance-based damage falloff curves with clamped ranges and multipliers. |
+| [buff-stack](https://github.com/ANERON-GAMES/buff-stack) | Timed status effects with stacking, refresh and expiry rules. |
+| [threat-table](https://github.com/ANERON-GAMES/threat-table) | Per-target threat accumulation with decay and target selection. |
+| [xp-curve](https://github.com/ANERON-GAMES/xp-curve) | Experience-to-level progression curves with level caps and lookups. |
 
 Each library has tests and no network calls. The thresholds and the failure rules come from running this stack, not from a tutorial.
 
