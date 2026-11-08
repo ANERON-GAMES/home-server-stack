@@ -53,6 +53,9 @@ The production tree stays private. It holds keys, personal mail, device sessions
 | [buff-stack](https://github.com/ANERON-GAMES/buff-stack) | Timed status effects with stacking, refresh and expiry rules. |
 | [threat-table](https://github.com/ANERON-GAMES/threat-table) | Per-target threat accumulation with decay and target selection. |
 | [xp-curve](https://github.com/ANERON-GAMES/xp-curve) | Experience-to-level progression curves with level caps and lookups. |
+| [leash-reset](https://github.com/ANERON-GAMES/leash-reset) | Encounter leash rules that reset combat when a target exceeds the leash range. |
+| [armor-mit](https://github.com/ANERON-GAMES/armor-mit) | Armor-based damage mitigation with diminishing returns and a mitigation cap. |
+| [cc-diminish](https://github.com/ANERON-GAMES/cc-diminish) | Crowd-control diminishing returns that shorten repeated effects in the same category. |
 
 Each library has tests and no network calls. The thresholds and the failure rules come from running this stack, not from a tutorial.
 
